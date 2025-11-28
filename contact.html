@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PLOMEY Thibaut</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">PLOMEY Thibaut</div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="page-section">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="title-underline"></div>
+            <p class="section-description">
+                Une idée de projet ? Une question ? N'hésitez pas à me contacter. 
+                Je suis toujours ouvert à de nouvelles opportunités et collaborations.
+            </p>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Informations de contact</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p class="contact-label">Téléphone</p>
+                            <a href="tel:+22962365480" class="contact-value">+229 62 36 54 80</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <p class="contact-label">Email</p>
+                            <a href="mailto:thibautplomey@icloud.com" class="contact-value">thibautplomey@icloud.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <p class="social-label">Retrouvez-moi sur</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3 class="form-title">Envoyez-moi un message</h3>
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom complet</label>
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet ou votre demande..." required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-full" onclick="sendEmail()">
+                            Envoyer le message
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="availability-card">
+                <h3 class="availability-title">Disponibilité</h3>
+                <p class="availability-text">
+                    Actuellement disponible pour des projets freelance et des opportunités professionnelles
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023-2025 PLOMEY Thibaut - Développeur Fullstack. Tous droits réservés.</p>
+            <p class="footer-subtitle">Conçu et développé avec passion</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

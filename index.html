@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLOMEY Thibaut - Développeur Fullstack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">PLOMEY Thibaut</div>
+            <button class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="skills.html">Compétences</a></li>
+                <li><a href="projects.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="images/client1.jpg" alt="Background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="images/client1.jpg" alt="PLOMEY Thibaut">
+            </div>
+            <h1 class="hero-title">PLOMEY Thibaut</h1>
+            <div class="title-underline"></div>
+            <p class="hero-subtitle">Développeur Fullstack</p>
+            <p class="hero-description">
+                Passionné par la création d'expériences numériques innovantes et performantes. 
+                Plus de 2 ans d'expérience dans le développement web et mobile.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
+                <a href="contact.html" class="btn btn-secondary">Me contacter</a>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Années d'expérience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Projets réalisés</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">7+</div>
+                    <div class="stat-label">Technologies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="page-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Mes services</h2>
+            <div class="title-underline"></div>
+            <p class="section-description">Je fournis des services complets, du design à la maintenance — toujours orienté vers la qualité et la performance.</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-magic feature-icon"></i>
+                    <h3>Design & UX</h3>
+                    <p>Interfaces intuitives, expérience utilisateur soignée et responsive pour tous les écrans.</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-code feature-icon"></i>
+                    <h3>Développement</h3>
+                    <p>Applications web et mobile fullstack, performantes et maintenables (React, Node, Python, etc.).</p>
+                </div>
+
+                <div class="feature-card">
+                    <i class="fas fa-server feature-icon"></i>
+                    <h3>Maintenance & Hébergement</h3>
+                    <p>Surveillance, mises à jour et optimisation pour garder vos projets disponibles et sûrs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Preview / Services -->
+    <section class="page-section" id="services">
+        <div class="container">
+            <h2 class="section-title">Exemples de projets</h2>
+            <div class="title-underline"></div>
+            <p class="section-description">Quelques projets récents pour montrer la diversité de mon travail — cliquer pour voir tous les détails.</p>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/dashboard.jpg" alt="Project A">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">Dashboard analytique</div>
+                        <p class="project-description">Visualisation de données temps réel avec filtres avancés et export.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Postgres</span>
+                        </div>
+                        <a class="project-link" href="projects.html">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/microfinance.jpg" alt="Project B">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">Application Web</div>
+                        <p class="project-description">Application cross-platform pour la gestion des tâches et notifications push.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                        <a class="project-link" href="projects.html">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/immo.jpg" alt="Project C">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">Site vitrine</div>
+                        <p class="project-description">Site performant, optimisé SEO et accessible, prêt à convertir les visiteurs en clients.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a class="project-link" href="projects.html">Voir le projet <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="page-section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Témoignages</h2>
+            <div class="title-underline"></div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Travail rapide, communication claire et résultat final au‑delà de nos attentes. Très professionnel."</p>
+                    <div class="testimonial-author">— LOKOSSA Pasacl, UX Manager</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Un développeur fiable qui comprend les besoins commerciaux et propose des solutions adaptées."</p>
+                    <div class="testimonial-author">AZIATIN Joanne, Fondateur</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Dépannage rapide et maintenance proactive — notre service a gagné en stabilité."</p>
+                    <div class="testimonial-author">SOSSOU Achille, Responsable IT</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="page-section cta-section" id="work-with-me">
+        <div class="container">
+            <div class="cta-inner">
+                <h2 class="cta-title">Prêt à démarrer un projet ?</h2>
+                <p class="cta-text">Je peux vous aider à concevoir, développer et maintenir des produits numériques performants. Discutons de votre besoin !</p>
+                <p class="cta-text">Je travaille sur des sites vitrine, tableaux de bord, applications mobiles et maintenance. Je propose des livrables clairs, tests et maintenance de suivi — idéale pour les petites équipes et startups.</p>
+
+                <div class="cta-bullets">
+                    <ul>
+                        <li>Devis rapide et discussion préliminaire gratuite</li>
+                        <li>Mise en production et maintenance suivie</li>
+                    </ul>
+                </div>
+
+                <a href="contact.html" class="btn btn-primary btn-full">Contactez‑moi</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023-2025 PLOMEY Thibaut - Développeur Fullstack. Tous droits réservés.</p>
+            <p class="footer-subtitle">Conçu et développé avec passion</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
